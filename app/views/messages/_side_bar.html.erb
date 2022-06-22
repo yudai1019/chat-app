@@ -4,7 +4,13 @@
     <a href="#">Tom</a>
   </div>
   <div class="create-room">
+
      <%= link_to room.name, room_messages_path(room) %>
+
+    <%= link_to "チャットを作成する", new_room_path %>
+      </div>
+    </div>
+  <% end %>
   </div>
 </div>
 
