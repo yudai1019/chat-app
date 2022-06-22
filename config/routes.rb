@@ -7,5 +7,5 @@ Rails.application.routes.draw do
     resources :messages, only: [:index, :create]
 
   resources :rooms, only: [:new, :create]
-
+  end
 end
